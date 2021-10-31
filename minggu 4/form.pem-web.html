@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>tugas minggu ke 4</title>
+</head>
+	<style>body{
+		background-color: skyblue ;
+	}		
+	</style>
+	<body>
+
+	<h1 align="center">FORMULIR PPDB JALUR ZONASI TAHUN 2021<hr size="5" color="blue" width="100%"></h1>
+		<form action="proses.php" method="post" name="fppdb" autocomplete="off">
+
+		<table>
+			<p><h3>INFO PENDAFTARAN</h3><hr size="2" color="black" width="15%" align="left"></p>
+			<br>
+			
+			<tr>
+				<td><label for="NISN">NISN</label></td>
+				<td><input size=80 type="text" id="NISN"></td>
+			</tr>
+			<tr>
+				<td><label for="AsalSekolah">Asal Sekolah</label></td>
+				<td><input size=80 type="text" id="AsalSekolah"><td>
+			</tr>
+			<tr>
+				<td><label for="tahunlulus">tahun lulus</label></td>
+				<td><input size=80 type="text" id="tahunlulus"><td>
+			</tr>
+		</table>
+		<table>
+			<br>
+			<p><h3>DATA CALON PESERTA</h3><hr size="2" color="black" width="15%" align="left"><p>
+			<tr>
+				<td><label for="namalengkap">Nama Lengkap</label></td>
+				<td><input size=80 type="text" id="namalengkap"></td>
+			</tr>
+			<tr>
+				<td><label for="NIK">NIK</label></td>
+				<td><input size=80 type="text" id="NIK"></td>
+			</tr>
+			<tr>
+				<td><label for="tempat lahir">Tempat Lahir</label></td>
+				<td><input size=80 type="text" id="tempat lahir"></td>	
+				<td><label for="tanggallahir">tanggal lahir</label></td>
+				<td><input size=80 type="date" id="tanggallahir"></td>
+			</tr>
+			<tr>
+				<td><label for="jeniskelamin">jenis kelamin </label><td>
+			
+				<td><input type="radio" id="jeniskelamin" name="jeniskelamin" velue="laki-laki"></td>
+				<td><label for="jeniskelamin">laki-laki</label></td>
+				<td><input type="radio" id="jeniskelamin" name="jeniskelamin" velue="perempuan"></td>
+				<td><label for="jeniskelamin">perempuan</label></td>
+			</tr>
+			<tr>
+			<td><h3>alamat</h3></td>
+			</tr>
+			<tr>
+				<td><label for="desa/kel">desa/kel</label></td>
+				<td><input size=80 type="text" id="desa/kel"></td>
+			</tr>
+			<tr>
+				<td><label for="kecamatan">kecamatan</label></td>
+				<td><input size=80 type="text" id="kecamatan"></td>
+			</tr>
+			<tr>
+				<td><label for="kabupaten">kabupaten</label></td>
+				<td><input size=80 type="text" id="kabupaten"></td>
+			</tr>
+			<tr>
+				<td><label for="provinsi">provinsi</label></td>
+				<td><input size=80 type="text" id="provinsi"></td>
+			</tr>
+			<tr>	
+				<td><label for="email aktif">email aktif</label></td>
+				<td><input size=80 type="text" id="email aktif"></td>
+			</tr>
+		</table>
+			<p><h3>DATA ORANG TUA</h3><hr size="2" color="black" width="15%" align="left"><p>
+				<label for="no kartu keluarga">no kartu keluarga :</label><br>
+				<input size=80 type="text" id="no kartu keluarga">
+			<br>
+				<label for="nama ayah kandung">nama ayah kandung :</label><br>
+				<input size=80 type="text" id="nama ayah kandung">
+ 			<br>
+				<label size=80 for="agama">agama :</label><br>
+				<select for="agama" name="agama">
+					<option value="-">-</option>
+					<option value="islam">islam</option>
+					<option value="kristen">kristen</option>
+					<option value="hindhu">hindhu</option>
+					<option value="budha">budha</option>
+					<option value="katolik">katolik</option>
+					<option value="lainnya">lainnya</option>
+				</select>
+			<br>
+				<label for="pekerjaan">pekerjaan :</label><br>
+				<input size=80 type="text" id="pekerjaan">		
+			<br>
+				<label for="nama ibu kandung">nama ibu kandung :</label><br>
+				<input size=80 type="text" id="nama ibu kandung">
+			<br>
+				<label for="agama">agama :</label><br>
+				<select for="agama" name="agama">
+					<option value="-">-</option>
+					<option value="islam">islam</option>
+					<option value="kristen">kristen</option>
+					<option value="hindhu">hindhu</option>
+					<option value="budha">budha</option>
+					<option value="katolik">katolik</option>
+					<option value="lainny">lainnya</option>
+				</select>
+			<br>
+				<label for="pekerjaan">pekerjaan :</label><br>
+				<input size=80 type="text" id="pekerjaan">
+			<h3>alamat</h3>
+		
+				<label for="desa/kel">desa/kel :</label><br>
+				<input size=80 type="text" id="desa/kel">
+			<br>
+				<label for="kecamatan">kecamatan :</label><br>
+				<input size=80 type="text" id="kecamatan">
+			<br>
+				<label for="kabupaten">kabupaten :</label><br>
+				<input size=80 type="text" id="kabupaten">
+			<br>
+				<label for="provinsi">provinsi :</label><br>
+				<input size=80 type="text" id="provinsi">
+			<br><br>
+				<input type="submit" name="fsubmit" value="submit">		
+		</form>
+	</body>
+</html>
