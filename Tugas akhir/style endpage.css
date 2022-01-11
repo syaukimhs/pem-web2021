@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    width: 1152px;
+    height: 700px;
+
+    background: blanchedalmond;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+}
+
+img{
+    width: 662px;
+    height: 700px;
+    border-radius: 10px;
+    float: left;
+}
+
+.welcome{
+    position: absolute;
+    width: 463px;
+    height: 515px;
+    left: 780px;
+    top: 24px;
+}
+
+.kata{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    color: black;
+}
+
+.kembali{
+    background: #3f882d;
+    box-shadow: 0px 4px 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.kembali a{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: center;
+    color: #f7faf6;
+    text-decoration: none;
+    
+}
+
+.kembali :hover{
+    background-color: skyblue;
+    color: black;
+    border-radius: 20px;
+}

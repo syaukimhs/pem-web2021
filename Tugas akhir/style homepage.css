@@ -1,0 +1,71 @@
+body{
+    position: relative;
+    width: 1152px;
+    height: 700px;
+    overflow: scroll;
+
+    background: blanchedalmond;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+}
+
+img{
+    float: left;
+    width: 721px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.welcome{
+    position: absolute;
+    width: 431px;
+    height: 436.58px;
+    left: 821px;
+    top: 31px;
+}
+
+.satu{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 59px;
+    text-align: center;
+    color: black;
+}
+
+.dua{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 49px;
+    text-align: center;
+    color: black;
+}
+
+.next{
+    text-align: center;
+    background: #3F882D;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px;
+}
+
+.next a{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 95px;
+    text-align: center;
+    color: #F7FAF6;
+    text-decoration: none;
+}
+
+.next :hover{
+    background-color: skyblue;
+    color: black;
+    border-radius: 10px;
+}
+
+

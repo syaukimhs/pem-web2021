@@ -1,0 +1,251 @@
+body{
+    background-image: url("figma/pisau.jpg");
+    mix-blend-mode: normal;
+    border-radius: 15px;
+}
+
+.nomormeja{
+    position: absolute;
+    width: 1155px;
+    height: 317px;
+    left: 0px;
+    top: -5px;
+}
+
+
+.kotak{
+    width: 180px;
+    height: 210px;
+    background: #fff;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-bottom: 100px;
+    margin-left: 125px;
+
+}
+
+img{
+    position: static;
+    width: 177px;
+    height: 140px;
+    left: 41px;
+    top: 412px;
+    border-radius: 15px;
+}
+
+p{
+   font-family: Roboto Mono;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   line-height:0px;
+   text-align: center;
+   color: black; 
+    
+}
+
+.nomor .satu{
+    font-size: 46px;
+}
+
+.daftar .satu{
+    font-size: 46px;
+}
+
+.form .satu{
+    font-size: 46px;
+}
+
+.daftar{
+    position: absolute;
+    width: 457px;
+    height: 173px;
+    left: 2px;
+    top: 600px;
+}
+
+.kotak2{
+    width: 300px;
+    height: 310px;
+    background: #fff8f8;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-bottom: 100px;
+    margin-left: 114px;
+}
+
+.img2 img{
+    position: static;
+    width: 300px;
+    height: 224px;
+    left: 41px;
+    top: 412px;
+    border-radius: 15px;
+}
+
+.kata p{
+   font-family: Roboto Mono;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 29px;
+   line-height:0px;
+   text-align: left;
+   margin-left: 10px;
+   color: black; 
+}
+
+.kata1 p{
+   font-family: Roboto Mono;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   text-align: left;
+   margin-left: 10px;
+   color: #6f6f6f;
+}
+
+.kotak3{
+    width: 300px;
+    height: 300px;
+    background: #fff8f8;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-bottom: 100px;
+    margin-left: 114px;
+}
+
+.img3 img{
+    position: static;
+    width: 300px;
+    height: 217px;
+    left: 59px;
+    top: 1809px;
+    border-radius: 15px;
+}
+
+.kata2 p{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+}
+
+.kata3 p{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+    color: #6f6f6f;
+}
+
+
+
+.kotak4{
+    width: 300px;
+    height: 300px;
+    background: #fff8f8;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-bottom: 100px;
+    margin-left: 114px;
+}
+
+.img4 img{
+    position: static;
+    width: 300px;
+    height: 217px;
+    left: 59px;
+    top: 2281px;
+    border-radius: 15px;
+}
+
+.kata4 p{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+}
+
+.kata5 p{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+    color: #6f6f6f;
+}
+
+form .data{
+    width: 1021px;
+    height: 79px;
+    left: 59px;
+    top: 3409px;
+}
+
+label{
+    font-family: Robot Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #ececec;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.next{
+    text-align: center;
+    background: #3f882d;
+    box-shadow: 0px 4px 15px;
+    border-radius: 20px;
+}
+
+.next a{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    color: #f7faf6;
+}
+
+.next :hover{
+    background-color: skyblue;
+    color: black;
+    border-radius: 10px;
+}
+
